@@ -48,7 +48,7 @@ The main entry of the module is inside the <kbd>index.kt</kbd>.  In the <kbd>imp
 
 ## ✍️ Feedback
 
-Feel free to send feedback on [Twitter](https://twitter.com/jklingenberg_) or [file an issue](https://github.com/foso/KotlinReactNativeMpp/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
+Feel free to send feedback on [Twitter](https://twitter.com/jklingenberg_) or [file an issue](https://github.com/foso/KotlinReactNativeMpp/issues/new). Feature requests are always welcome.
 
 
 ## 📜 License
