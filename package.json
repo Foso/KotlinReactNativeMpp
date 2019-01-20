@@ -1,0 +1,35 @@
+{
+  "name": "KotlinReactNativeMpp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "haul": "haul"
+  },
+  "dependencies": {
+    "@jetbrains/kotlin-extensions": "1.0.1-pre.61",
+    "@jetbrains/kotlin-react": "16.6.0-pre.61",
+    "@jetbrains/kotlin-react-dom": "16.6.0-pre.61",
+    "core-js": "^2.5.7",
+    "kotlin": "1.3.11",
+    "react": "16.2.0",
+    "react-dom": "16.6.0",
+    "react-native": "0.52.0",
+    "react-native-action-button": "^2.8.5",
+    "react-navigation": "^3.0.9",
+    "metro-react-native-babel-preset":"^0.45.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "haul": "^1.0.0-beta.12",
+    "jest": "22.1.2",
+    "react-test-renderer": "16.2.0",
+    "source-map-loader": "^0.2.3"
+
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

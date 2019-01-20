@@ -1,0 +1,4 @@
+rootProject.name = 'KotlinReactNativeMpp'
+
+include ':android:app',
+        ':shared'

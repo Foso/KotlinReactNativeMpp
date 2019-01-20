@@ -1,0 +1,38 @@
+buildscript {
+    apply from: './buildConstants.gradle'
+
+
+
+    ext.buildMaven = { p -> repositories { maven { url p } } }
+
+
+
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        mavenRepos.each { buildMaven(it) }
+
+
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$configuration.buildGradle_version"
+        classpath "org.jetbrains.kotlin:kotlin-frontend-plugin:$configuration.kotlinFrontend"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$configuration.kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        maven { url "$rootDir/node_modules/react-native/android" }
+        google()
+        jcenter()
+    }
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+

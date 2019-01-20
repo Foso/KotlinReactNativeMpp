@@ -1,0 +1,66 @@
+ext {
+    kotlin_version = '1.30'
+    gitSha = 'git rev-parse --short HEAD'.execute([], project.rootDir).text.trim()
+    buildTime = new Date().format("yyyy-MM-dd'T'HH:mm:ss'Z'", TimeZone.getTimeZone("UTC"))
+
+    mavenRepos = ["https://plugins.gradle.org/m2/",
+                  "https://oss.sonatype.org/content/repositories/snapshots",
+                  "https://dl.bintray.com/kotlin/ktor",
+                  "https://dl.bintray.com/kotlin/kotlinx",
+                  "https://jitpack.io",
+                  "https://dl.bintray.com/kotlin/kotlin-eap"]
+
+
+    configuration = [applicationId      : "de.jensklingenberg.sheasy",
+                     appVersion         : '0.1',
+                     buildGradle_version: '3.4.0-alpha01',
+                     buildTools         : '28.0.3',
+                     compileSdk         : 28,
+                     detektVersion      : '1.0.0.RC9.2',
+                     kotlin_version     : '1.3.11',
+                     minSdk             : 21,
+                     serverPort         : "8766",
+                     targetSdk          : 27,
+                     versionCode        : 1,
+                     versionName        : '1.0.0',
+                     websocketPort      : "8765"]
+
+
+    libs = [
+            aboutlibraries       : '6.2.0',
+            androidX             : [
+                    annotation      : '1.0.1',
+                    appcompat       : '1.0.2',
+                    cardview        : '1.0.0',
+                    constraintLayout: '2.0.0-alpha2',
+                    fragment        : '1.0.0',
+                    general         : '1.0.0',
+                    nav_version     : "1.0.0-alpha08"
+
+            ],
+            dagger               : '2.16',
+            espressocore         : '3.0.1',
+            junit                : '4.11',
+            ktor_version         : '1.0.1',
+            ktx                  : '1.0.1',
+            leakcanaryVersion    : '1.5.4',
+            lifeCycleExtension   : '1.1.1',
+            materialdrawer       : '6.0.6@aar',
+            mockitoVersion       : '1.10.19',
+            moshiConverterVersion: '2.3.0',
+            mockkVersion : '1.9',
+
+            moshikotlin          : '1.5.0',
+            moshilazyadapters    : '2.1',
+            moshiVersion         : '1.5.0',
+            nanohttpdwebsocket   : '2.3.1',
+            nav_version          : "1.0.0-alpha08",
+            rxandroid            : '2.1.0',
+            rxbinding            : '2.1.1',
+            rxJava               : '2.1.7',
+            rxjava2Adapter       : '1.0.0',
+            rxkotlin             : "2.3.0",
+            testRunner           : '1.0.1',
+            threetenabp          : '1.1.1'
+    ]
+}
