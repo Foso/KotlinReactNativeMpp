@@ -26,8 +26,6 @@ class MainView : RComponent<RProps, AppState>(), MainContract.View {
         View {
             attrs.style = object {
                 val flex = 1
-                // val alignItems= "center"
-                // val justifyContent= "center"
             }
             Button {
                 attrs {
@@ -46,7 +44,6 @@ class MainView : RComponent<RProps, AppState>(), MainContract.View {
                     attrs {
 
                         style = object {
-                            //  val backgroundColor = "green"
                             val color = "black"
                         }
                     }
