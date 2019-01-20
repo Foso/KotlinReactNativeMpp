@@ -1,36 +1,9 @@
 ext {
 
-    gitSha = 'git rev-parse --short HEAD'.execute([], project.rootDir).text.trim()
-    kotlin_version = '1.3.11'
-    kotlinx_html_version = '0.6.11'
-    kotlin_frontend_version = '0.0.37'
-
-    react_version = '16.6.0'
-    kotlin_react_version = "16.6.0-pre.63-kotlin-1.3.11"
-    kotlin_react_dom_version = "16.6.0-pre.63-kotlin-1.3.11"
-
-    libs = [bootstrap             : '^4.1.3',
-            react_router_dom      : '^4.3.1',
-            history               : '^4.7.2',
-            core_js               : '2.5.7',
-            rxjs                  : '6.3.3',
-            ktor_version          : '1.0.1',
-            reactstrap            : '^6.5.0',
-            react_dropzone        : "7.0.1",
-            react_web_notification: '0.3.2',
-            simple_websocket      : '7.2.0',
-            axios                 : '0.18.0',
-            kodein                : "6.0.1",
-            react_draggable       : "3.0.5"
-    ]
-
 
     configuration = [
-            kotlin_version: '1.3.11',
-            versionCode   : 1,
-            serverPort    : "8766",
-            websocketPort : "8765",
-            versionName   : '1.0.0']
+            kotlin_version: '1.3.11'
+    ]
 
     mavenRepos = ["https://dl.bintray.com/kotlin/kotlin-eap",
                   "https://kotlin.bintray.com/kotlin/kotlinx",
