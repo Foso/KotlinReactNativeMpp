@@ -6,7 +6,6 @@ package react.native
 import react.RClass
 import react.RComponent
 import react.RProps
-import react.React
 
 @JsName("AppRegistry")
 external object AppRegistry {
