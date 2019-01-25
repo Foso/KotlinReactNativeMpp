@@ -76,4 +76,9 @@ License
     limitations under the License.
 
 
-
+## Acknowledgments
+Projects that helped me understand how to setup the project:
+* [ScottPierce/kotlin-react-native
+](https://github.com/ScottPierce/kotlin-react-native)
+* [ptmt/kotlin-react-native-example
+](https://github.com/ptmt/kotlin-react-native-example)
