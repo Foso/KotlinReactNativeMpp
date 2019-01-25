@@ -22,7 +22,7 @@ You can click on an floating action button and a counter will update
 
 ## 🛠️ Built With
 ### Kotlin
-[![jCenter](https://img.shields.io/badge/Kotlin-1.3.11-green.svg
+[![jCenter](https://img.shields.io/badge/Kotlin-1.3.20-green.svg
 )]()
 
 ### Tools
