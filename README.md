@@ -31,7 +31,7 @@ You can click on an floating action button and a counter will update
 * [Yarn](https://yarnpkg.com/lang/en/)
 * [Haul](https://github.com/callstack/haul)
 
-### Procekt Structure
+### Project Structure
 * <kbd>android</kbd> - Base android project directory
 * <kbd>ios</kbd> - Base ios project directory
 * <kbd>shared</kbd> - This module is using the Kotlin Multiplatform Plugin, but is only configured to compile to Javascript/React.
