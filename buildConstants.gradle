@@ -4,8 +4,8 @@ ext {
                   "https://dl.bintray.com/kotlin/kotlin-eap"]
 
     configuration = [
-                     kotlin_version     : '1.3.20',
+                     kotlin_version     : '1.3.50',
                      buildGradle_version: '3.3.0',
-                     kotlinFrontend : '0.0.44'
+                     kotlinFrontend : '0.0.45'
                     ]
 }

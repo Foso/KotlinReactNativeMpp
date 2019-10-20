@@ -1,5 +1,5 @@
 ext {
-    kotlin_version = '1.30'
+    kotlin_version = '1.3.50'
     gitSha = 'git rev-parse --short HEAD'.execute([], project.rootDir).text.trim()
     buildTime = new Date().format("yyyy-MM-dd'T'HH:mm:ss'Z'", TimeZone.getTimeZone("UTC"))
 
@@ -11,19 +11,19 @@ ext {
                   "https://dl.bintray.com/kotlin/kotlin-eap"]
 
 
-    configuration = [applicationId      : "de.jensklingenberg.sheasy",
+    configuration = [
                      appVersion         : '0.1',
                      buildGradle_version: '3.4.0-alpha01',
                      buildTools         : '28.0.3',
                      compileSdk         : 28,
                      detektVersion      : '1.0.0.RC9.2',
-                     kotlin_version     : '1.3.11',
+                     kotlin_version     : '1.3.50',
                      minSdk             : 21,
-                     serverPort         : "8766",
+
                      targetSdk          : 27,
                      versionCode        : 1,
                      versionName        : '1.0.0',
-                     websocketPort      : "8765"]
+                 ]
 
 
     libs = [
